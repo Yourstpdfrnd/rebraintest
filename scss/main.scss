@@ -1,0 +1,15 @@
+// @import 'vars'; если используете scss-переменные - подключите сюда vars, но удалите root из _vars.scss
+
+// большие компоненты
+@import "./components/header";
+@import "./components/hero";
+@import "./components/programm";
+@import "./components/faq";
+@import "./components/footer";
+
+// маленькие
+@import "./components/nav";
+
+
+//мобильная версия
+@import "./media";

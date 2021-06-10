@@ -1,0 +1,139 @@
+.hero {
+  position: relative;
+  height: 100vh;
+  background-color: var(--color-main);
+
+  &__inner{
+    padding-top: 50px;
+  }
+  &__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+  }
+  &__content{
+    color: #fff;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 40px;
+  }
+  &__info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    
+  }
+  &__info-item{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    padding-left: 48px;
+    position: relative;
+  }
+  &__info-row{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+  }
+  &__info-icon{
+    position: relative;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    width: 48px;
+    height: 48px;
+    svg{
+      position: absolute;
+      width: 34px;
+      height: 34px;
+      top: 7px;
+      left: 7px;
+    }
+
+  }
+  &__info-text{
+    padding-left: 17px;
+  }
+  &__info-banner{
+    img{
+      border-radius: 15px;
+    }
+  }
+  &__info-descr{
+      margin-right: 10px;
+  
+  }
+  &__btn{
+    background-color: var(--color-yellow);
+    color: #282626;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 20px 21px;
+    border-radius: 10px;
+    display: inline-block;
+    &:hover{
+      background-color: #fff27d;
+    }
+  }
+ &__circle{
+   position: absolute;
+   top: 0;
+   left: 0;
+ }
+ 
+}
+
+// .button {
+//   display: inline-block;
+//   padding: 18px 21px;
+//   font-size: 22px;
+//   line-height: 1;
+//   color: #fff;
+//   border-radius: 50px;
+//   text-decoration: none;
+//   border: 1px solid #0e5a4c;
+//   background-color: #0e5a4c;
+//   overflow: hidden;
+//   position: relative;
+//   transition: all .2s ease-out;
+//   user-select: none;
+  
+// }
+
+// .button:after {
+//   content: "";
+//   position: absolute;
+//   top: -50%;
+//   bottom: -50%;
+//   background: linear-gradient(90deg,hsla(0,0%,100%,.1),hsla(0,0%,100%,.6) 100%);
+//   width: 45px;
+//   transform: skewX(-22deg);
+//   left: -65%;
+//   animation-name: blick;
+//   animation-duration: 3s;
+//   animation-iteration-count: infinite;
+// }
+
+// @-webkit-keyframes blick {
+// 	60% {
+// 		left: 100%
+// 	}
+// 	to {
+// 		left: 130%
+// 	}
+// }
+
+// @keyframes blick {
+// 	60% {
+// 		left: 100%
+// 	}
+// 	to {
+// 		left: 130%
+// 	}
+// }
